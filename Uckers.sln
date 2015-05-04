@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jannersoft.common.core", "Jannersoft.common.core\Jannersoft.common.core.csproj", "{C72CB49B-CA16-480D-9800-1C405397100D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jannersoft.common.DataLayer", "Jannersoft.common.DataLayer\Jannersoft.common.DataLayer.csproj", "{255ED5FD-E2EF-494F-AFC9-0021A7006A8C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Umbraco(1)", "http://localhost:14316", "{1D37A37C-4859-4427-B66B-2341975CB170}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14316"
+		Debug.AspNetCompiler.PhysicalPath = "Umbraco\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14316\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14316"
+		Release.AspNetCompiler.PhysicalPath = "Umbraco\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14316\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Umbraco\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72CB49B-CA16-480D-9800-1C405397100D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72CB49B-CA16-480D-9800-1C405397100D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72CB49B-CA16-480D-9800-1C405397100D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72CB49B-CA16-480D-9800-1C405397100D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255ED5FD-E2EF-494F-AFC9-0021A7006A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255ED5FD-E2EF-494F-AFC9-0021A7006A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255ED5FD-E2EF-494F-AFC9-0021A7006A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255ED5FD-E2EF-494F-AFC9-0021A7006A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D37A37C-4859-4427-B66B-2341975CB170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D37A37C-4859-4427-B66B-2341975CB170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D37A37C-4859-4427-B66B-2341975CB170}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D37A37C-4859-4427-B66B-2341975CB170}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
